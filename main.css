@@ -178,4 +178,46 @@ img {
 }
 /* hero section finsh  */
 
+/* differences section start  */
+.difference {
+    margin-top: 369px;
+}
+.difference-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;
+}
+.difference-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 96px;
+    list-style: none;
+}
+.difference-item {
+    width: 350px;
+}
+.item-title {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+}
+.item-desc {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 26px;
+    color: #837D88;
+}
+/* differences section finish  */
+
 /* site main finish  */
