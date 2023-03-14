@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "DM Serif Display";
+    font-family: "dM Serif display";
     font-weight: 400;
     font-display: swap;
     src: url("./fonts/dmserifdisplay400.woff2") format("woff2"),
@@ -84,7 +84,7 @@ img {
     line-height: 15px;
     text-align: center;
     letter-spacing: 1.5px;
-    color: #837D88;
+    color: #837d88;
 }
 .header-link:hover {
     color: #2C2830;
@@ -99,11 +99,11 @@ img {
     letter-spacing: 1.5px;
     color: #2C2830;
     text-decoration: none;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1.5px solid #2C2830;
 }
 .header-last-anchor:hover {
-    color: #FFFFFF;
+    color: #ffffff;
     background: #2C2830;
     border: 1.5px solid #2C2830;
 }
@@ -113,7 +113,7 @@ img {
 
 /* hero section start  */
 .hero {
-    background-color: #2D2641;
+    background-color: #2d2641;
     background-image: url("./images/images/heroback.svg");
     background-repeat: no-repeat;
     background-position: 1080px -57px;
@@ -139,7 +139,7 @@ img {
     background-color: #fff;
 }
 .hero-title {
-    font-family: 'DM Serif Display';
+    font-family: 'dM Serif display';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -147,14 +147,14 @@ img {
     margin-bottom: 16px;
     line-height: 64px;
     letter-spacing: -1px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .hero-desc {
     margin: 0;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .hero-anchor {
     display: inline-block;
@@ -165,13 +165,13 @@ img {
     line-height: 15px;
     text-align: center;
     letter-spacing: 1.5px;
-    color: #FFFFFF;
-    border: 1.5px solid #FFFFFF;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
 }
 .hero-anchor:hover {
     color: #2C2830;
-    background: #FFFFFF;
-    border: 1.5px solid #FFFFFF;
+    background: #ffffff;
+    border: 1.5px solid #ffffff;
 }
 .bitmap {
     position: relative;
@@ -193,7 +193,7 @@ img {
     background-color: #C396C6;
 }
 .difference-title {
-    font-family: 'DM Serif Display';
+    font-family: 'dM Serif display';
     font-weight: 400;
     font-size: 72px;
     line-height: 64px;
@@ -212,7 +212,7 @@ img {
     width: 350px;
 }
 .item-title {
-    font-family: 'DM Serif Display';
+    font-family: 'dM Serif display';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -226,31 +226,33 @@ img {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 26px;
-    color: #837D88;
+    color: #837d88;
 }
 /* differences section finish  */
 
 /* site article start  */
 
 .article-inner {
-    background-color: #2D2641;
+    background-color: #2d2641;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 158px;
+    margin-bottom: 150px;
     padding: 69px 80px;
 }
 .article-text-box {
     width: 475px;
 }
 .article-title {
-    font-family: 'DM Serif Display';
+    font-family: 'dM Serif display';
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.777778px;
     margin: 0;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .article-anchor {
     padding: 13px 24.5px;
@@ -260,8 +262,13 @@ img {
     line-height: 15px;
     text-align: center;
     letter-spacing: 1.5px;
-    color: #FFFFFF;
-    border: 1.5px solid #FFFFFF;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+}
+.article-anchor:hover {
+    color: #2C2830;
+    background: #ffffff;
+    border: 1.5px solid #ffffff;
 }
 /* site article finish  */
 
@@ -269,8 +276,25 @@ img {
 
 
 /* site footer start  */
-.footer-inner{
-    background-color: #FAFAFA;
+.site-footer {
+    background-color: #fafafa;
+    padding: 64px 0;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #dadada;
+}
+.social-media-list {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+.social-media {
+    margin-left: 16px;
 }
 .footer-bottom {
     padding-top: 48px;
@@ -290,7 +314,7 @@ img {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1.5px;
-    color: #837D88;
+    color: #837d88;
 }
 .item-list {
     list-style: none;
@@ -302,6 +326,13 @@ img {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1.5px;
-    color: #2D2641;
+    color: #2d2641;
+}
+.item-link {
+    text-decoration: none;
+    color: #2d2641;
+}
+.item-link:hover {
+    text-decoration: underline;
 }
 /* site footer start  */
