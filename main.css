@@ -114,9 +114,9 @@ img {
 /* hero section start  */
 .hero {
     background-color: #2d2641;
-    background-image: url("./images/images/heroback.svg");
+    background-image: url(./images/images/heroback.svg);
     background-repeat: no-repeat;
-    background-position: 1080px -57px;
+    background-position: 1080px -140px;
 }
 .hero-inner {
     display: flex;
@@ -279,6 +279,9 @@ img {
 .site-footer {
     background-color: #fafafa;
     padding: 64px 0;
+    /* background-image: url(./images/images/heroback.svg);
+    background-repeat: no-repeat;
+    background-position: -170px -419px; */
 }
 .footer-top {
     display: flex;
@@ -295,6 +298,10 @@ img {
 }
 .social-media {
     margin-left: 16px;
+}
+.social-media-logo:hover {
+    fill: #2C2830;
+    background-color: #2C2830;
 }
 .footer-bottom {
     padding-top: 48px;
