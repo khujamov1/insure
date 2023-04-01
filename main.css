@@ -116,18 +116,17 @@ img {
     background-color: #2d2641;
     background-image: url(./images/images/heroback.svg);
     background-repeat: no-repeat;
-    background-position: 1080px -140px;
+    background-position: calc(50% + 650px) -140px;
 }
 .hero-inner {
     display: flex;
     justify-content: space-between;
     height: 600px;
-    padding-top: 105px;
 }
 .hero-bigbox {
     position: relative;
     width: 540px;
-    margin-top: 64px;
+    margin-top: 170px;
 }
 .hero-bigbox::before {
     position: absolute;
@@ -175,6 +174,7 @@ img {
 }
 .bitmap {
     position: relative;
+    top: 105px;
 }
 /* hero section finsh  */
 
@@ -182,13 +182,14 @@ img {
 .difference {
     margin-top: 369px;
     position: relative;
+    margin-bottom: 158px;
 }
 .difference-title::before {
     position: absolute;
     content: "";
     width: 150px;
     height: 1px;
-    left: 205px;
+    left: calc(50% - 550px);
     top: -64px;
     background-color: #C396C6;
 }
@@ -217,7 +218,7 @@ img {
     font-weight: 400;
     font-size: 28px;
     margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     line-height: 38px;
     letter-spacing: -0.388889px;
     color: #2C2830;
@@ -237,7 +238,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 158px;
     margin-bottom: 150px;
     padding: 69px 80px;
 }
@@ -299,9 +299,11 @@ img {
 .social-media {
     margin-left: 16px;
 }
-.social-media-logo:hover {
-    fill: #2C2830;
-    background-color: #2C2830;
+.social-media-link {
+    color: #837D88;
+}
+.social-media-link:hover {
+    color: #2C2830;
 }
 .footer-bottom {
     padding-top: 48px;
@@ -321,6 +323,8 @@ img {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1.5px;
+    display: block;
+    margin-bottom: 36px;
     color: #837d88;
 }
 .item-list {
